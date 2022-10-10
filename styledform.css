@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: teal;
+    /* overflow: hidden; */
+}
+form{
+    
+    text-align: center;
+    width: 100%;
+    /* height: 100vh; */
+   
+}
+.wrapper{
+    background: rgb(3, 59, 59);
+    width: 65%;
+    margin: 10px auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+fieldset{
+   padding: 10px;
+   border: none;
+   border-top: 1px solid white;
+}
+legend{
+    background: #bdcfd0;
+    padding: 10px 20px;
+   
+    color: #000f0f;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px black;
+}
+.inputfield{
+    font-family:georgia ;
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #333;
+}
+.left{
+    width: 48%;
+    float: left;
+    text-align: right;
+    border-right: 1px solid white;
+}
+.titles{
+    padding-right: 15px;
+    color: #bdcfd0;
+    line-height: 87px;
+}
+h4{
+    font-weight: normal;
+}
+.right{
+    width: 49%;
+    float: right;
+    text-align: left;
+    color: #bdcfd0;
+    line-height: 33px;
+}
+.dropdown{
+    width: 100px;
+    background: #000f0f;
+    color: white;
+    border-radius: 4px;
+    padding: 12px;
+}
+input[type="file"]{
+    background: #000f0f;
+    color: white;
+    width: 200px;
+    border-radius: 4px;
+    padding: 12px;
+}
+button, .submit{
+    padding: 16px;
+    border: none;
+    width: 160px;
+    background: #bdcfd0;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+}
+h3:nth-last-child(){
+    line-height: 10px;
+}
