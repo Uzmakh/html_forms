@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <form action="">
+      <fieldset>
+        <legend><h1>User's Info</h1></legend>
+        <h3>Input Type</h3>
+        <input type="text" name="f-name"
+        placeholder="Full Name">
+        <!-- we enter the name of our field to identify the server -->
+
+        <h3>Password Field</h3>
+        <input type="password" name="password"
+        placeholder="Enter Your Password here">
+
+        <h3>Input Type</h3>
+        <input type="email" name="email"
+        placeholder="Enter your email ">
+
+        <h3>Textarea</h3>
+        <textarea name="message" id="" cols="30" rows="10">Write your message here</textarea>
+    </fieldset>
+
+
+<fieldset>
+    <legend><h1>Programming Specific</h1></legend>
+        <h3>Checkboxes</h3>
+        <input type="checkbox" id="java"> 
+        <label for="java">Java</label>
+        <input type="checkbox" id="python">
+        <label for="python">Python</label>
+
+        <h3>Radio Buttons</h3>
+        <input type="radio" name="os" id="android" value="android">
+        <label for="android"> Android </label>
+        <input type="radio" name="os" value="ios" id="ios"> 
+        <label for="ios">iOS</label>
+         
+                  <!-- value is for server to identify user's selection -->
+
+
+        <h3>Dropdown options</h3>
+        <select name="browsers" id="">
+         <option value="chrome" selected>Chrome</option>
+         <option value="safari">Safari</option>
+         <option value="firefox">Firefox</option>
+        </select>
+
+        <h3>Upload Button</h3>
+        <input type="file" name="photo" accept="image/*">
+        <!-- we can specify which file type user can upload.
+        The user can upload any type of image. -->
+    </fieldset>
+
+        <h3>Buttons</h3>
+        <button type="submit" name="submitbtn">Submit/Register</button>
+        <button type="reset">Reset</button>
+        <button name="justabutton">Just a button</button>
+        <input type="button" value="submit">
+    </form>
+
+
+
+
+</body>
+</html>
